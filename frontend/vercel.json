@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/api/v1/:path*",
-      "destination": "https://backend-production-dd067.up.railway.app/api/v1/:path*"
+      "destination": "https://conversia-production-0bad.up.railway.app/api/v1/:path*"
     },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
