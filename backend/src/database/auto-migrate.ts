@@ -117,7 +117,7 @@ async function ensureNewTables(pool: Pool): Promise<void> {
 // Conserva la cuenta CEO y el esquema; borra el resto de datos y usuarios de prueba.
 async function cleanDemoData(pool: Pool): Promise<void> {
   if (!process.env.RESET_DEMO) return;
-  const CEO = 'ugartealan776@gmail.com';
+  const CEO = 'conversia.meta@gmail.com';
   const dataTables = ['creatives', 'projects', 'ai_generations', 'credit_transactions', 'credit_purchases', 'leads', 'campaigns', 'user_integrations', 'brand_products', 'brand_profiles', 'subscriptions'];
   let removed = 0;
   for (const t of dataTables) {
